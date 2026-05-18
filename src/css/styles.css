@@ -19,6 +19,7 @@
   grid-template-columns: repeat(2, 50%);
   justify-content: center;
   align-items: center;
+    gap: 30px;
 
   div {
     display: flex;
