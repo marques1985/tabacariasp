@@ -1,0 +1,27 @@
+header {
+  padding: 1% 4% 1% 4%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      width: auto;
+      height: auto;
+      color: rgb(7, 217, 0);
+      font-size: 0.9rem;
+      font-weight: bold;
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+    .whatsapp-logo {
+      display: flex;
+    }
+  }
+}
