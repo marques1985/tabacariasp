@@ -11,12 +11,13 @@
 
 .produtos {
   padding: 4% 4% 4% 4%;
-  display: flex;
-  justify-content: center;
 }
 
 .itens {
-  display: grid;
-  grid-template-columns: repeat(2, 50px);
-  gap: 10px;
+  align-items: stretch;
+
+  img {
+    width: 100px;
+    height: 200px
+  };
 }
