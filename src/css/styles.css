@@ -14,12 +14,22 @@
 }
 
 .itens {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-columns: repeat(2, 50%);
   justify-content: center;
+  align-items: center;
 
-  img {
-    width: 100px;
-    height: 200px
-  };
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 300px;
+    }
+  }
 }
