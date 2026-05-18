@@ -14,7 +14,9 @@
 }
 
 .itens {
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  justify-content: center;
 
   img {
     width: 100px;
