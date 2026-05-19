@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
+  background-color: black;
 }
 
 .produtos {
@@ -15,22 +16,32 @@
 
 .itens {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  justify-content: center;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
   align-items: center;
-    gap: 30px;
+}
 
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.itens .anuncio {
+  position: relative;
+  width: 100px;
+  height: 300px;
+}
 
-    img {
-      justify-content: center;
-      align-items: center;
-      width: 100px;
-      height: 200px;
-    }
-  }
+.itens .anuncio img {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 200px;
+  border: 2px white solid;
+}
+
+.itens .anuncio .descricao {
+  position: absolute;
+  top: 200px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border: 2px #ffffff solid;
 }
